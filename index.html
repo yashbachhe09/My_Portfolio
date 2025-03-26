@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Eknath Bachhe - Personal Portfolio</title>
+</head>
+<body>
+    <div class="navbar">
+        <span class="menu-icon" onclick="toggleSidebar()">☰</span>
+        <a href="#home" onclick="showSection('home')">Home</a>
+        <a href="#about" onclick="showSection('about')">About Me</a>
+        <a href="#education" onclick="showSection('education')">Education</a>
+        <a href="#projects" onclick="showSection('projects')">Projects</a>
+        <a href="#internship" onclick="showSection('internship')">Internship</a>
+        <a href="#strengths" onclick="showSection('strengths')">Strengths</a>
+        <a href="#interests" onclick="showSection('interest')">Interest</a>
+        <a href="#skills" onclick="showSection('skills')">Skills</a>
+        <a href="#references" onclick="showSection('references')">References</a>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+        <span class="close-icon" onclick="toggleSidebar()">×</span>
+        <a href="#home" onclick="showSection('home')">Home</a>
+        <a href="#about" onclick="showSection('about')">About Me</a>
+        <a href="#education" onclick="showSection('education')">Education</a>
+        <a href="#projects" onclick="showSection('projects')">Projects</a>
+        <a href="#internship" onclick="showSection('internship')">Internship</a>
+        <a href="#strengths" onclick="showSection('strengths')">Strengths</a>
+        <a href="#interests" onclick="showSection('interest')">Interest</a>
+        <a href="#skills" onclick="showSection('skills')">Skills</a>
+        <a href="#references" onclick="showSection('references')">References</a>
+    </div>
+
+    <div class="content" id="content">
+        <section id="home" class="active">
+            <div class="header">
+                <img src="ProfilePic.jpg" alt="Profile Photo" height="300" width="300">
+                <h3>Yash Eknath Bachhe</h3>
+                <h3>DOB: 09-Jan-2003</h3>
+                <h3>7083027310</h3>
+                <h3><a href="mailto:yashbachhe09@gmail.com">yashbachhe09@gmail.com</a></h3>
+                <h3><a href="https://www.linkedin.com/in/yashbachhe" target="_blank">LinkedIn</a></h3>
+                <h3><a href="https://github.com/yashbachhe09" target="_blank">Github</a></h3>
+                <h3>Row house no. 72, Sai yash, Shankar Nagar, Kopargaon Tal- Kopargaon Dist: Ahmednagar pin-423601</h3>
+            </div>
+            
+            <footer>
+                <p>© 2025 All Rights Reserved.</p>
+                <p>Made with ❤️ and dedication.</p>
+            </footer>
+        </section>
+        
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                As an individual looking to pursue a job opportunity in a competitive environment, I aim to be challenged
+                to push boundaries and expand knowledge in the field of computer science, all while striving to add value to the dynamic of the company.
+                I am a dedicated Computer Science student with a passion for solving complex problems and exploring new technologies.
+                Currently pursuing a degree in Computer Science, I have a strong foundation in programming and software development.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>Sanjivani College of Engineering:</strong> SPPU</p>
+            <p><strong>B.Tech:</strong> Computer Science 7.6 CGPA</p>
+            <p><strong>Completion Year:</strong> 2025</p>
+
+            <p><strong>SSGM College, Kopargaon:</strong> SPPU</p>
+            <p><strong>HSC:</strong> 89.83%</p>
+            <p><strong>Completion Year:</strong> 2021</p>
+
+            <p><strong>Shri Sharda English Medium School, Kopargaon:</strong> SPPU</p>
+            <p><strong>SSC:</strong> 81.20%</p>
+            <p><strong>Completion Year:</strong> 2019</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p><strong>AI-Powered Mental Health Companion:
+                </strong> <br>Developed a Flutter-based mental health app with AI-driven chat assistance and self-assessments.<br>
+                <br>Implemented Natural language processing to analyze user inputs and provide personalized mental health recommendations.<br>
+                <br>Integrated an emergency appointment booking feature for patients to connect with doctors in critical situations.<br>
+                <br>Added a community forum for feedback and a built-in helpline for emotional support during distress.<br>
+                <br>Included self-help resources like guided exercises, mindfulness techniques, and books for mental well-being.<br></p>
+            <p><strong>Cab Fare Estimator</strong> <br> Developed a React-based cab booking system that accurately estimates fares based on predefined city distances.<br>
+                <br>Implemented multiple vehicle options (e.g., sedan, SUV, auto-rickshaw) with dynamic pricing calculations.<br>
+                <br>Integrated a payment system with options for UPI and Cash on Delivery (COD).<br>
+                <br>Optimized UI for a smooth booking experience and minimal loading time.<br>
+                <br>Added live ride tracking and estimated arrival time to enhance user convenience and trust.<br>
+                </strong>
+            <p><strong> Voice-Based Email System for Visually Impaired</strong> <br>Developed a speech-enabled email system that allows visually impaired users to compose and send emails using voice commands.<br>
+                <br> Integrated text-to-speech and speech-to-text functionality for seamless communication.<br>
+                <br> Utilized smtplib for email automation, pyttsx3 for voice output, and easyimap for email retrieval.<br>
+                <br>Designed a hands-free, voice-controlled user interface for complete accessibility.<br>
+                <br> Enhanced user experience with real-time email status updates and inbox management via voice commands.<br></p>
+
+            
+        </section>
+
+        <section id="internship">
+            <h2>Internship</h2>
+            <strong>Prodigy InfoTech</strong>
+            <p> Web Developer<br>
+                <br>06/2024 – 07/2024<br>
+                <br>Developed a fully responsive landing page using HTML, CSS, and JavaScript, ensuring cross-browser compatibility and a user-friendly
+ interface.<br>
+ <br>Created an interactive stopwatch with start, pause, reset, and lap time functionality using JavaScript, enhancing time-tracking
+ efficiency.<br>
+ <br>Designed a Tic-Tac-Toe game with both player vs. player and player vs. AI modes, implementing minimax algorithm for AI decision
+making.<br>
+ <br>Built a personal portfolio showcasing skills, education, projects , experience, improving professional visibility.<br>
+ <br>Integrated a real-time weather API, allowing users to check current weather conditions by fetching live data.<br></p>
+            
+        </section>
+
+        <section id="strengths">
+            <h2>Strengths</h2>
+            <p>Good ability of thinking.</p>
+            <p>Helping nature for society.</p>
+            <p>Easily get connected with people.</p>
+        </section>
+
+        <section id="interest">
+            <h2>Interests</h2>
+            <p>Traveling</p>
+            <p>Photography</p>
+            <p>Planting Trees</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Full Stack Web Development</h3>
+            <p> Web Development: HTML, CSS, JavaScript, UI/UX, React JS, Bootstrap,MySQL</p>
+            <h3>Others</h3>
+            <p>1. Hands-on experience in Python</p>
+            <p>2. Practical understanding of C, C++, and data structures</p>
+            <p>3. Good communication and collaboration skills, with the ability to quickly grasp new technical concepts and apply them productively</p>
+        </section>
+
+        <section id="references">
+            <h2>References</h2>
+            <p>
+                Dr. D. B. Kshirsagar, HOD, Sanjivani COE<br>
+                Dr. B. J. Dange, Mentor, Sanjivani COE
+            </p>
+        </section>
+    </div>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+
+        @keyframes slideOut {
+            from { transform: translateX(0); }
+            to { transform: translateX(-100%); }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f8ff;
+            color: #333;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #34dbb7;
+            color: white;
+            padding: 10px 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .navbar a:hover {
+            background-color: aquamarine;
+            border-radius: 4px;
+        }
+
+        .navbar .menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #2c3e50;
+            color: white;
+            position: fixed;
+            height: 100%;
+            top: 0;
+            left: -250px;
+            padding: 20px;
+            overflow-y: auto;
+            transition: left 0.3s;
+            animation: slideOut 0.3s forwards;
+        }
+
+        footer {
+        background-color: #34dbb7;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+
+        .sidebar.active {
+            left: 0;
+            animation: slideIn 0.3s forwards;
+        }
+
+        .sidebar .close-icon {
+            display: block;
+            font-size: 24px;
+            cursor: pointer;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px 0;
+            transition: background-color 0.3s;
+        }
+
+        .sidebar a:hover {
+            background-color: #34495e;
+            border-radius: 4px;
+        }
+
+        .content {
+            margin-left: 20px;
+            padding: 20px;
+            margin-top: 30px; 
+        }
+
+
+        .content.shift {
+            margin-left: 270px;
+        }
+
+        .header {
+         background-color: #34dbb7;
+         color: #fff;
+         padding: 20px;
+         border-radius: 8px 8px 0 0;
+         text-align: center; 
+         display: flex;
+         flex-direction: column;
+         align-items: center; 
+         justify-content: center; 
+         }
+
+        .header img {
+         border-radius: 50%;
+         margin-bottom: 10px;
+         animation: fadeIn 2s ease-in-out;
+         display: block;  
+         max-width: 100%; 
+         height: auto;
+        }
+
+
+        .header h3, .header a {
+            margin: 5px 0;
+        }
+
+        .header a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            display: none;
+            margin-bottom: 30px;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        section.active {
+            display: block;
+        }
+
+        h2 {
+            color: rgb(43, 198, 172);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .navbar .menu-icon {
+                display: block;
+            }
+
+            .navbar a {
+                display: none;
+            }
+        }
+
+        nav {
+            background-color: rgb(43, 226, 205);
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
+        }
+
+        nav ul {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav li {
+            height: 50px;
+        }
+
+        nav a {
+            height: 100%;
+            padding: 0 30px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            color: black;
+        }
+
+        nav a:hover {
+            background-color: rgb(0, 255, 204);
+        }
+
+        nav li:first-child {
+            margin-right: auto;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            right: 0;
+            height: 100vh;
+            width: 250px;
+            z-index: 999;
+            background-color: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+            display: none;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            background-color: rgba(17, 149, 105, 0.857);
+        }
+
+        .sidebar.active {
+            display: flex;
+        }
+
+        .sidebar li {
+            width: 100%;
+        }
+
+        @media (max-width: 800px) {
+            .hideOnMobile {
+                display: none;
+            }
+        }
+    </style>
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('active');
+        }
+
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.classList.remove('active');
+            });
+            document.getElementById(sectionId).classList.add('active');
+            if (window.innerWidth <= 768) {
+                toggleSidebar(); // Close the sidebar when a section is selected on mobile
+            }
+        }
+
+        // Set home section as default visible
+        document.getElementById('home').classList.add('active');
+    </script>
+</body>
+</html>
